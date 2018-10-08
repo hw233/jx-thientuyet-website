@@ -1,0 +1,152 @@
+
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px auto;
+	overflow-x: hidden;
+	background-color: #2e6da4;
+}
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+	margin: 0px auto;
+	position: relative;
+}
+#wrapper div.Header {
+	background: url(images/bg-v2.jpg) no-repeat 0 0/cover;
+	position: fixed;
+}
+
+#wrapper h1 a {
+	background: url(images/logo.png) no-repeat center 0  / cover;
+	color: transparent;
+	display: none;
+	font: 0px/0 a;
+	text-shadow: none;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 30px;
+	margin: 0 auto;
+	height: 172px;
+	width: 227px;
+	z-index: 100;
+}
+#wrapper ul.TopLink {
+	/* position: relative; */
+	z-index: 100;
+	margin: 0px auto;
+	width: 100%;
+	height: 30px;
+	/* float: right; */
+	/* left: 0px; */
+	right: 0px;
+}
+#wrapper ul.TopLink li {
+	float: right;
+	margin-right: 8px;
+	white-space: nowrap;
+	color: #f3f2f0;
+	font-size: 20px;
+	font-family: Arial;
+	line-height: 30px;
+	border: 1px solid #fff;
+	background: #2e6da4;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 3px 3px 3px 5px rgba(0,0,0,0.2);
+}
+#wrapper ul.TopLink li a {
+	color: #fcf8f8;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+#wrapper ul.TopLink li a:hover {
+	color: #fff;
+}
+.cta a {
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 300px;
+	height: 390px;
+	text-indent: -9999px;
+	display: none;
+}
+.cta li:nth-child(1) a {
+	background-image: url(images/cta-01-nor.png);
+}
+.cta li:nth-child(1) a:hover {
+	background-image: url(images/cta-01-ovr.png);
+}
+.cta li:nth-child(2) a {
+	background-image: url(images/cta-02-nor.png);
+}
+.cta li:nth-child(2) a:hover {
+	background-image: url(images/cta-02-ovr.png);
+}
+
+.cta li:nth-child(3) a {
+	background-image: url(images/cta-03-nor.png);
+}
+.cta li:nth-child(3) a:hover {
+	background-image: url(images/cta-03-ovr.png);
+}
+
+.cta li:nth-child(4) a {
+	background-image: url(images/cta-04-nor.png);
+}
+.cta li:nth-child(4) a:hover {
+	background-image: url(images/cta-04-ovr.png);
+}
+.watchClip {
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	text-indent: -9999px;
+	display: none;
+}
+
+#wrapper #footer {
+	width: 700px;
+	height: 70px;
+	margin: 0px auto;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+#wrapper #footer p {
+	text-align: center;
+	margin: 28px 0 0;
+	color: #b8a667;
+	font-size: 11px;
+	font-family: Tahoma;
+	line-height: 18px;
+}
+#wrapper #footer .vng {
+	background: url(images/vng.html) no-repeat 0 0 / cover;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	display: block;
+	height: 53px;
+	width: 35px;
+	float: left;
+	margin: 15px 0 0;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	display: block;
+}
+#wrapper #footer .kingsoft {
+	background: url(images/kingsoft.html) no-repeat 0 0 / cover;
+	float: right;
+	margin: 32px 0 0;
+	text-indent: -9999px;
+	width: 120px;
+	height: 22px;
+}

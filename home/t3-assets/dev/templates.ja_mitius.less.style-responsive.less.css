@@ -1,0 +1,105 @@
+@media (max-width: 1199px) {
+  .head-search .input,
+  .head-search .input:focus,
+  .head-search .input:hover,
+  .head-search .input:active {
+    width: 100px;
+  }
+  .t3-module .ja-cp-main .ja-cp-group .ja-cp-item,
+  .t3-module .ja-cp-main .ja-cp-group .ja-cp-item {
+    overflow: hidden;
+    width: 20% !important;
+  }
+  .t3-module .ja-cp-main .item-inner {
+    width: 80% !important;
+  }
+  .ja-contentslider-center,
+  .ja-contentslider-center .jsslide {
+    width: 100% !important;
+  }
+  .ja-contentslider-center .jsslide {
+    height: auto !important;
+  }
+  div.acymailing_form p.onefield {
+    width: 100% !important;
+  }
+  .acymailing_form .acyfield_email input.inputbox {
+    width: 90% !important;
+  }
+  .highslide-img a {
+    width: 66px !important;
+    height: 66px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .head-search .input,
+  .head-search .input:focus,
+  .head-search .input:hover,
+  .head-search .input:active {
+    width: 60px;
+  }
+  .module-title {
+    font-size: 13px;
+  }
+  .ja-button-control {
+    margin-bottom: 15px;
+    position: relative !important;
+    top: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  .logo {
+    float: none;
+    text-align: center;
+  }
+  .head-search {
+    float: none;
+    margin-top: 20px;
+  }
+  .head-search .input {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+  }
+  .head-search .input:focus {
+    width: 100%;
+  }
+  .ja-tab-subcontent .ja-slidenews-item {
+    width: 100%;
+  }
+  .ja-footer {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .ja-footnav {
+    padding: 20px 20px 0;
+    font-size: 11px;
+  }
+  .ja-footnav .module-title {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .ja-copyright {
+    padding: 20px 20px 40px;
+    *zoom: 1;
+  }
+  .ja-copyright:before,
+  .ja-copyright:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  .ja-copyright:after {
+    clear: both;
+  }
+  .copyright,
+  .poweredby {
+    float: none;
+    display: inline-block;
+  }
+  .poweredby {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,48 @@
+.module { width:618px;}
+
+.Block_boxContent {background:url(../images/template/layout/content_bg.gif) repeat-y; overflow:hidden;   margin:auto; width:559px; padding:0 35px 0 45px;}
+
+/* General */
+.boxContent { background:url(../images/template/layout/content_bg.gif) repeat-y; padding: 0 39px 0 45px; overflow:hidden;  }
+
+.title {height:65px; overflow:hidden; padding-top:61px}
+.title .titleLocation{ color:#fde3ad; padding-top:20px; padding-left:65px; float:left; font-size:16px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-transform:uppercase;}
+.title .location{ float:right; padding-top:20px; padding-right:40px; color:#fde3ad; font-size:12px; font-family:Tahoma}
+.title .location a:link, .title .location a:visited{ color:#fde3ad; text-decoration:none; font-family:Tahoma; font-size:12px;}
+.title .location a:hover{ text-decoration:underline; color:#fde3ad;}
+
+
+.boxContent .titlepage{height:20px; margin-bottom:20px; overflow:hidden;}
+.boxContent .titlepage h1{ color:#067836; text-align:center; font-size:18px;  }
+
+/* Content */
+.contentHTML{ margin:auto; width:640px; overflow:hidden; }
+
+/* DETAIL NEWS */
+.contentDetailNews{ margin:auto; width:640px; overflow:hidden}
+.contentDetailNews .boxContent { min-height:100px; }
+
+/* LIST NEWS */
+.contentListNews{ margin:auto; width:640px; overflow:hidden}
+
+
+/* LIST EVENT */
+.contentEvent{ margin:auto; width:640px; overflow:hidden}
+
+/* LIST WALLPAPER */
+.contentWallpaper{ margin:auto; width:640px; overflow:hidden}
+
+
+/* LIST MUSIC */
+.contentMusic{ margin:auto; width:640px; overflow:hidden}
+
+
+
+/* LIST CLIP */
+.contentClip{ margin:auto; width:640px; overflow:hidden}
+
+/* LIST ITEM */
+.contentListItem{ margin:auto; width:640px; overflow:hidden}
+
+/* RANKING */
+.contentRanking{ margin:auto; width:640px; overflow:hidden}

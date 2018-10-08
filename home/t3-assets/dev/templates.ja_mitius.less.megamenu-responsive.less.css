@@ -1,0 +1,18 @@
+@media (max-width: 767px) {
+  .ja-megamenu .mega-inner {
+    padding: 10px 20px;
+  }
+  .ja-megamenu .row-fluid + .row-fluid {
+    border-top: 1px solid #999;
+  }
+  .ja-megamenu .span12.mega-col-nav .mega-inner {
+    padding: 0;
+  }
+  .ja-megamenu .mega-nav > li a,
+  .ja-megamenu .dropdown-menu .mega-nav > li a {
+    padding: 5px 20px;
+  }
+  .ja-megamenu .ja-module {
+    margin-bottom: 0;
+  }
+}

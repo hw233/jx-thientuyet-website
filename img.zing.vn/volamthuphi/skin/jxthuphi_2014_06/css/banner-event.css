@@ -1,0 +1,132 @@
+#boxEvent {
+    width: 630px;
+    height: 280px;
+    position: absolute;
+    top: 210px;
+    left: 350px;
+}
+
+#img {
+    width: 630px;
+    height: 280px;
+}
+
+#img li {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#img li.ActiveBanner {
+    z-index: 5;
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+#imgControl {
+    overflow: hidden;
+    position: absolute;
+    bottom: -4px;
+    z-index: 10;
+    right: 5px;
+}
+
+#imgControl li {
+    position: relative;
+    width: 32px;
+    height: 33px;
+    float: left;
+    margin-right: 2px;
+    list-style: none;
+    overflow: hidden;
+}
+
+#imgControl li a {
+    width: 32px;
+    height: 33px;
+    display: block;
+    background: url(../images/event/icon.png) 0 0 no-repeat;
+    margin-right: 4px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+#imgControl li a:hover, #imgControl li.ActiveBanner a {
+    background: url(../images/event/icon-hover.png) 0 0 no-repeat;
+    color: #fff;
+}
+
+#imgBig {
+    position: relative;
+    overflow: hidden;
+    width: 310px;
+    height: 230px;
+}
+
+#imgBig li {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#imgBig li.ActiveBanner {
+    z-index: 5;
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+#imgBigControl {
+    position: absolute;
+    width: 310px;
+    height: 230px;
+    top: 0;
+    left: 0;
+}
+
+#imgBigControl li a {
+    display: block;
+    width: 25px;
+    height: 56px;
+    text-indent: -9999px;
+    z-index: 10;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.BannerAd a.BtnLeft {
+    background: url(../images/btnLeftBannerAd.png) 0 0 no-repeat;
+    position: absolute;
+    top: 86px;
+    left: 10px;
+    display: none;
+    width: 25px;
+    height: 56px;
+    text-indent: -9999px;
+    z-index: 10;
+}
+
+.BannerAd a.BtnRight {
+    background: url(../images/btnRightBannerAd.png) 0 0 no-repeat;
+    position: absolute;
+    top: 86px;
+    right: 10px;
+    display: none;
+    width: 25px;
+    height: 56px;
+    text-indent: -9999px;
+    z-index: 10;
+}
+

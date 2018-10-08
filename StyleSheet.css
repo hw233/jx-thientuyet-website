@@ -1,0 +1,107 @@
+﻿body { margin:0px auto 0 auto; background-color:#fdfdfd; }
+
+.containerbkmodule { width:770px; height:auto; margin:0px auto 0 auto;
+                     border:thin solid #eee; 
+                     border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;         }
+
+.topmodule { width:100%; height:82px; background:url(images/baokimbanner.gif) no-repeat;
+             border-top-left-radius:5px; -moz-border-top-left-radius:5px; -webkit-border-top-left-radius:5px;
+             border-top-right-radius:5px; -moz-border-top-right-radius:5px; -webkit-border-top-right-radius:5px;
+             }
+
+.centermodule { width:750px; height:auto; display:table; padding:5px 10px 5px 10px;}
+
+.leftcentermodule { width:400px; height:210px; float:left; padding: 0 0 10px 0; display:table;
+          border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;
+          border-radius:4px; -moz-border-radius:4p; -webkit-border-radius:4px; background: #fafafa;
+          -webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+          -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+            box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+            -webkit-box-shadow: 5px; -moz-border-radius: 5px; border-radius: 5px; 
+                     }
+
+
+.chonmang { width:100%; padding:5px 0 5px 10px; display:table;  }
+
+.chonmang > div{ width:110px; height:40px; float:left; margin-right:15px; border:thin solid transparent; }
+
+.chonmang div.active{ border:thin solid red; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+
+.chonmang div.active input[type="radio"]{ background:url(images/check.png) no-repeat;}
+
+.chonmang .divvina {background:url(images/vinaphone.png) no-repeat; position:relative;}
+
+.chonmang .divmobi {background:url(images/mobifone.png) no-repeat; position:relative;}
+
+.chonmang .divviettel {background:url(images/viettel.png) no-repeat; position:relative;}
+.chonmang .divvcoin {background:url(images/vcon.png) no-repeat; position:relative;}
+.chonmang .divgate {background:url(images/gate.png) no-repeat; position:relative;}
+
+.chonmang div .hide { width:50px; height:55px; display:none; position:absolute; top:-50px; right:0px;}
+
+#checkvinaphone.show, #checkmobilefone.show , #checkviettel.show, #checkvcoin.show, #checkgate.show  { display:block; z-index:11;position:absolute; top:-150px; right:0px;}
+
+.tablethongtin { width:395px;}
+
+.colum1 { width:100px; color:#666; text-align:right; padding-right:10px;}
+
+.colum2 {}
+
+.divbtnthanhtoan { text-align:right; padding: 0 50px 0 0; position:relative;}
+
+.trove { position:absolute; top:10px; left:10px;}
+
+.trove a{ color:#888; text-decoration:none;}
+
+.trove a:hover{ color:Blue;}
+
+.divbtnthanhtoan .btnthanhtoan { width:130px; height:35px; border:none; background:url(images/btnthanhtoan.png) no-repeat;}
+
+.footermodulecenter 
+{
+    width:330px; height:210px; float:right; padding: 0 0 10px 0; display:table;
+          border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;
+          border-radius:4px; -moz-border-radius:4p; -webkit-border-radius:4px; background: #fafafa;
+          -webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+          -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+            box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+            -webkit-box-shadow: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+            
+.tablebanggia { width:280px; height:auto; margin:0 auto 0 auto; color:#777;}
+
+.tablebanggia .columgia1{ width:180px; text-align:right; padding-right:10px;}      
+
+.tablebanggia .columgia2{ width:20px; text-align:center;}
+
+.tablebanggia .columgia3{ width:100px; padding-left:10px; }  
+
+.columgia1,.columgia2,.columgia3 { padding:3px 0 3px 0;}
+
+.rightcentermodule { width:740px;  padding:5px 5px 10px 5px; height:190px; display:table;
+                  border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;
+                  border-radius:4px; -moz-border-radius:4p; -webkit-border-radius:4px; background: #fafafa;
+                  -webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+                  -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+                  box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+                  -webkit-box-shadow: 5px; -moz-border-radius: 5px; border-radius: 5px;
+                     }
+
+.rightcentermodule .hdthe { width:100%; padding:5px 0 5px 0; text-align:center;
+                            font-size:22px; font-weight:bold; color:#dd244c;
+                            }
+
+.rightcentermodule table{ }
+.rightcentermodule table td{ padding:5px;}
+
+table .trmang td { color:#555; font-size:16px; text-align:center; padding:3px 0 3px 0;}
+
+.footermodule { width:100%; height:23px; padding:7px 0 0; background-color:#f1f1f1; text-align:center;
+                border-bottom-left-radius:5px; -moz-border-bottom-left-radius:5px; -webkit-border-bottom-left-radius:5px;
+             border-bottom-right-radius:5px; -moz-border-bottom-right-radius:5px; -webkit-border-bottom-right-radius:5px;
+                }
+
+.footermodule span{ font-size:12px; margin:0px auto 0 auto;}
+
+/******/
+.Text  { background:url(images/bg-input.png) repeat-x; height:25px; width:220px; border:thin solid #ccc;
+    border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}

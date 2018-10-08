@@ -1,0 +1,178 @@
+body {
+    background: url(../images/bg-loop.gif) repeat;
+    color: #bab097;
+}
+
+a:link, a:visited {
+    color: #bab097;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ebab23;
+    text-decoration: none;
+}
+
+.WrapperBG {
+    margin: 0px auto;
+    width: 100%;
+    overflow: hidden;
+    background: url(../images/header.jpg) no-repeat top center;
+}
+
+#wrapper {
+    margin: 0px auto;
+    width: 100%;
+    overflow: hidden;
+    background: url(../images/footer.jpg) no-repeat bottom center;
+}
+
+#wrapperIn {
+    margin: 0 auto;
+    width: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+
+#header {
+    height: 500px;
+    overflow: hidden;
+}
+
+#footer {
+    height: 215px;
+    overflow: hidden;
+    display: block;
+}
+
+#footerWrapper {
+    width: 1000px;
+    height: 215px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#footer a.VNG {
+    background: url(../images/logo-vng.png) no-repeat;
+    display: block;
+    width: 35px;
+    height: 53px;
+    text-indent: -9999px;
+    position: absolute;
+    top: 130px;
+    left: 140px;
+}
+
+#footer a.KingSoft {
+    background: url(../images/logo-kingsoft.png) no-repeat;
+    display: block;
+    width: 85px;
+    height: 16px;
+    text-indent: -9999px;
+    position: absolute;
+    top: 148px;
+    left: 203px;
+}
+
+#footer .rating a {
+    background: url(../images/rating.png) no-repeat;
+    width: 157px;
+    height: 75px;
+    position: absolute;
+    top: 118px;
+    left: 797px;
+    text-indent: -9999px;
+}
+
+#footer p {
+    width: 960px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 11px;
+    position: absolute;
+    top: 134px;
+    left: 304px;
+}
+
+.Main {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+a.Logo {
+    background: url(../images/logo.png) no-repeat 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 174px;
+    left: 15px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 230px;
+    z-index: 100;
+}
+
+.InsideMainContent {
+    width: 630px;
+    float: left;
+    overflow: hidden;
+}
+
+ul.MainSidebar {
+    background: url(../images/sidebar-bg.jpg) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 200px;
+    height: 44px;
+    margin: 0;
+    position: fixed;
+    right: 0;
+    width: 62px;
+    z-index: 1000;
+}
+
+.MainSidebar li {
+    float: left;
+}
+
+.MainSidebar li a {
+    background: url(../images/sidebar-bt.png) no-repeat;
+    display: block;
+    width: 52px;
+    height: 38px;
+    text-indent: -9999px;
+}
+
+.MainSidebar li a:hover {
+    background: url(../images/sidebar-bt-hover.png) no-repeat;
+}
+
+.MainSidebar li a.BtnSidebar-1 {
+    background-position: 0 0;
+    margin: 12px 0 0 5px;
+}
+
+.MainSidebar li a.BtnSidebar-2 {
+    background-position: -52px 0;
+    margin: 8px 0 0 5px;
+}
+
+.MainSidebar li a.BtnSidebar-3 {
+    width: 42px;
+    height: 27px;
+    background-position: -104px 0;
+    margin: 8px 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

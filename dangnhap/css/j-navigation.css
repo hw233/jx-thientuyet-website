@@ -1,0 +1,328 @@
+/* MENU LEVEL 0 */
+
+#box-menu{
+	width:900px;
+	height:108px;
+	position:absolute;
+	z-index:20;
+	left: 51px;
+	top: 65px;
+} 
+ul#menu {
+    width: 1000px;
+	height:59px;
+	margin:0 0 0 0px;
+}
+    ul#menu li {
+        float: left;
+        list-style-type:none;
+        position: relative;
+    }
+    
+        ul#menu li a:link,
+        ul#menu li a:visited {
+            display: block;
+            color: #efefef;
+			text-indent:-9999px;
+			font-weight:normal;
+        }
+		ul#menu li a.tintuc{background:url(../images/menu-bg.png) no-repeat 0 -59px; width:100px; height:59px;}
+		ul#menu li a.tintuc:hover{background-position:0 0}
+		ul#menu li.Active a.tintuc,
+		ul#menu li.Hilite a.tintuc{
+			background-position:0 0;
+		}
+		ul#menu li.off a.tintuc{
+			cursor:default;
+			background-position:0 100%;
+		}
+		
+		ul#menu li a.gioithieu{background:url(../images/menu-bg.png) no-repeat -100px -59px; width:85px; height:59px;}
+		ul#menu li a.gioithieu:hover{background-position:-100px 0}
+		ul#menu li.Active a.gioithieu,
+		ul#menu li.Hilite a.gioithieu{
+			background-position:-100px 0;
+		}
+		ul#menu li.off a.gioithieu:link,ul#menu li.off a.gioithieu:visited,ul#menu li.off a.gioithieu:hover{
+			cursor:default;
+			background-position:-100px 100%;
+		}
+
+		ul#menu li a.huongdan{background:url(../images/menu-bg.png) no-repeat -185px -59px; width:90px; height:59px;}
+		ul#menu li a.huongdan:hover{background-position:-185px 0}
+		ul#menu li.Active a.huongdan,
+		ul#menu li.Hilite a.huongdan{
+			background-position:-185px 0;
+		}
+		ul#menu li.off a.huongdan:link,ul#menu li.off a.huongdan:visited,ul#menu li.off a.huongdan:hover{
+			cursor:default;
+			background-position:-185px 100%;
+		}
+
+		ul#menu li a.chinhphuc{background:url(../images/menu-bg.png) no-repeat -552px -59px; width:87px; height:59px;}
+		ul#menu li a.chinhphuc:hover{background-position:-552px 0}
+		ul#menu li.Active a.chinhphuc,
+		ul#menu li.Hilite a.chinhphuc{
+			background-position:-552px 0;
+		}
+		ul#menu li.off a.chinhphuc:link,ul#menu li.off a.chinhphuc:visited,ul#menu li.off a.chinhphuc:hover{
+			cursor:default;
+			background-position:-552px 100%;
+		}
+
+		ul#menu li a.nhiemvu{background:url(../images/menu-bg.png) no-repeat -274px -59px; width:80px; height:59px; }
+		ul#menu li a.nhiemvu:hover{background-position:-274px 0}
+		ul#menu li.Active a.nhiemvu,
+		ul#menu li.Hilite a.nhiemvu{
+			background-position:-274px 0;
+		}
+		ul#menu li.off a.nhiemvu:link,ul#menu li.off a.nhiemvu:visited,ul#menu li.off a.nhiemvu:hover{
+			cursor:default;
+			background-position:-274px 100%;
+		}
+
+		ul#menu li a.thapdai{background:url(../images/menu-bg.png) no-repeat -356px -59px; width:90px; height:59px;}
+		ul#menu li a.thapdai:hover{background-position:-356px 0}
+		ul#menu li.Active a.thapdai,
+		ul#menu li.Hilite a.thapdai{
+			background-position:-356px 0;
+		}
+		ul#menu li.off a.thapdai:link,ul#menu li.off a.thapdai:visited,ul#menu li.off a.thapdai:hover{
+			cursor:default;
+			background-position:-356px 100%;
+		}
+
+		ul#menu li a.tinhnang{background:url(../images/menu-bg.png) no-repeat -639px -59px; width:77px; height:59px;}
+		ul#menu li a.tinhnang:hover{background-position:-639px 0}
+		ul#menu li.Active a.tinhnang,
+		ul#menu li.Hilite a.tinhnang{
+			background-position:-639px 0;
+		}
+		ul#menu li.off a.tinhnang:link,ul#menu li.off a.tinhnang:visited,ul#menu li.off a.tinhnang:hover{
+			cursor:default;
+			background-position:-639px 100%;
+		}
+
+		ul#menu li a.hotro{background:url(../images/menu-bg.png) no-repeat -799px -59px; width:94px; height:59px;}
+		ul#menu li a.hotro:hover{background-position:-799px 0}
+		ul#menu li.Active a.hotro,
+		ul#menu li.Hilite a.hotro{
+			background-position:-799px 0;
+		}
+		ul#menu li.off a.hotro:link,ul#menu li.off a.hotro:visited,ul#menu li.off a.hotro:hover{
+			cursor:default;
+			background-position:-799px 100%;
+		}
+
+		ul#menu li a.thuvien{background:url(../images/menu-bg.png) no-repeat -716px -59px; width:83px; height:59px;}
+		ul#menu li a.thuvien:hover{background-position:-716px 0}
+		ul#menu li.Active a.thuvien,
+		ul#menu li.Hilite a.thuvien{
+			background-position:-716px 0;
+		}
+		ul#menu li.off a.thuvien:link,ul#menu li.off a.thuvien:visited,ul#menu li.off a.thuvien:hover{
+			cursor:default;
+			background-position:-716px 100%;
+		}		
+
+		ul#menu li a.congdong{background:url(../images/menu-bg.png) no-repeat -893px -59px; width:90px; height:59px;}
+		ul#menu li a.congdong:hover{background-position:-893px 0}
+		ul#menu li.Active a.congdong,
+		ul#menu li.Hilite a.congdong{
+			background-position:-893px 0;
+		}
+		ul#menu li.off a.congdong:link,ul#menu li.off a.congdong:visited,ul#menu li.off a.congdong:hover{
+			cursor:default;
+			background-position:-893px 100%;
+		}		
+		
+        ul#menu li.HasChild a:link,
+        ul#menu li.HasChild a:visited {
+        }
+        ul#menu li.Active a:link,
+        ul#menu li.Active a:visited,
+        ul#menu li.Hilite a:link,
+        ul#menu li.Hilite a:visited,
+        ul#menu li a:hover {
+            text-decoration: none;
+            color: #fff;
+        }
+
+ 
+       
+
+        /* SUB-MENU LEVEL 1 */
+        /*ul#menu li ul {
+            width: 168px;
+			position:absolute;            
+            top: 59px;
+            left: 0px;
+            display:none;
+			font-size:11px;
+			padding:0px 0 0px 0;
+        }
+		*/
+		ul#menu li ul {
+            width: 168px;
+            position:absolute;            
+            top: 59px;
+            left: 0px;
+            display:none;
+            font-size:11px;
+            padding:0px 0 0px 0;
+            z-index:1000;
+        }
+
+		
+        ul#menu li ul.ToRight {
+            left: auto;
+            right:0;
+        }
+
+        ul#menu li ul.tintuc-group{
+            left: 30px;
+        }
+        ul#menu li ul.congdong-group{
+            right:10px;
+        }		
+         
+		    ul#menu li ul li {
+				float:left;
+                color:#fff;
+                text-indent:0px;
+				margin-bottom:0px;
+				height:24px;
+            }
+                ul#menu li.Active ul li a:link,
+                ul#menu li.Active ul li a:visited {
+					width:138px;
+					height:24px;
+					line-height:24px;
+					color:#fff;
+					text-indent:0;
+					padding:0px 5px 0px 25px;
+					background:url(../images/submenu-bg.png) no-repeat left bottom;
+					font-weight:bold;					
+                }
+                
+                ul#menu li.Active ul li.HasChild a:link,
+                ul#menu li.Active ul li.HasChild a:visited {
+					background:url(../images/submenu-arrow-bg.png) no-repeat left bottom;	
+                }
+
+				ul#menu li.Active ul li.Active a:link,
+				ul#menu li.Active ul li.Active a:visited{
+					color:#f7d11e;
+					background-position:0 0
+				}
+                ul#menu li.Active ul li a.off:link,
+				ul#menu li.Active ul li a.off:visited,
+				ul#menu li.Active ul li a.off:hover{
+                    color:#7a7465;
+					cursor:default;
+					background-position:left bottom;
+                }
+                ul#menu li.Active ul li a:hover {
+                    color:#f7d11e;
+					background-position: 0 0;
+                }
+                
+/*
+				
+				ul#menu li.Active ul li.HasChild.Active.bottom a:link,
+				ul#menu li.Active ul li.HasChild.Active.bottom a:visited{
+					background-position:0 0;
+				}
+				*/
+				ul#menu li.Active ul li a.bottom:link,
+				ul#menu li.Active ul li a.bottom:visited{
+					height:31px;
+					line-height:24px;
+					background:url(../images/submenu-b.png) 0 100%;
+				}
+				ul#menu li.Active ul li a.bottom:hover {
+					background-position: 0 0;
+                }
+				
+				ul#menu li.Active ul li.HasChild a.bottom:link,
+				ul#menu li.Active ul li.HasChild a.bottom:visited{
+					background:url(../images/submenu-b-arrow.png) 0 100%;
+				}
+				/*
+				ul#menu li.Active ul li.HasChild.Active a.bottom:link,
+				ul#menu li.Active ul li.HasChild.Active a.bottom:visited{
+					background:url(../images/submenu-b-arrow.png) 0 0;
+					color:#f7d11e;
+				}
+				*/
+    /* MODIFIED : set active o day, muon hightlight cai nao thi phai style = class Hilite */
+                ul#menu li.Active ul li.Hilite a:link,
+				ul#menu li.Active ul li.Hilite a:visited,
+				ul#menu li.Active ul li.Hilite a:hover
+				{
+                    color:#f7d11e;
+					background-position:0 0
+                }
+    /* end. MODIFIED */
+  
+            /* SUB-MENU LEVEL 2 */
+            ul#menu li.Active ul li ul {
+                width: 168px;
+                position: absolute;
+                top:-5px;
+                left: 168px;
+                display: none;
+				background:url(../images/submenu2-t.png) no-repeat;
+				padding-top:7px;
+            }
+            ul#menu li.Active ul li ul.ToRight {
+                left: auto;
+                right: 99%;
+            }
+            ul#menu li.Active ul li.Active ul {
+            }
+                ul#menu li ul li ul li {
+					float:left;
+                    color:#fce5bc; 
+                    width: 100%; 
+                    height:24px;
+                    padding-top:0px;
+                }
+                ul#menu li ul li ul li.corner-2{background:url(../images/submenu2-b.png); height:8px; width:100%; font-size:0} 
+				
+				ul#menu li.Active ul li.Active ul li a:link,
+                ul#menu li.Active ul li.Active ul li a:visited {
+                        padding:0;
+						margin:0 0px 0 0px;
+						/*border-bottom:#fff solid 1px;*/
+						background:url(../images/submenu2-bg.png) repeat-y;
+						width:168px;
+						text-indent:15px;
+						line-height:24px !important;
+						height:24px;
+						color:#fff !important;
+						font-weight:normal
+                }
+                    ul#menu li.Active ul li ul li.HasChild a:link,
+                    ul#menu li.Active ul li ul li.HasChild a:visited {
+                    }
+                    ul#menu li.Active ul li.Active ul li.Active a:link,
+                    ul#menu li.Active ul li.Active ul li.Active a:visited,
+                    ul#menu li.Active ul li.Active ul li.Hilite a:link,
+                    ul#menu li.Active ul li.Active ul li.Hilite a:visited,
+                    ul#menu li.Active ul li.Active ul li a:hover {
+						color:#f7d11e !important
+                    }
+				ul#menu li.Active ul li.Active ul li a.bottom:link,
+                ul#menu li.Active ul li.Active ul li a.bottom:visited{
+					background:url(../images/submenu2-b.png) no-repeat;
+					height:31px;
+					line-height:24px;
+
+				}
+				ul#menu li.Active ul li.Active ul li a.off:link,
+				ul#menu li.Active ul li.Active ul li a.off:visited,
+				ul#menu li.Active ul li.Active ul li a.off:hover{
+                    color:#847d68 !important;
+					cursor:default;
+				}	

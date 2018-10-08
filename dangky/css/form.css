@@ -1,0 +1,61 @@
+form.formular {
+	font-family: tahoma, verdana, "sans-serif";
+	font-size: 12px;
+}	
+
+.formular input, .formular select, .formular textarea {
+	display : block;
+}
+
+.formular .text-input {
+	width: 150px;
+	color: #555;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 14px;
+	background: #FFF url('/img/form/text-bg.gif') repeat-x;
+	
+}
+.formular textarea {
+	width: 250px;
+	height:70px;
+	color: #555;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 14px;
+	background: #FFF url('/img/form/text-bg.gif') repeat-x;
+	
+}
+.formular .infos {
+	background: #FFF;
+	color: #333;
+	font-size: 12px;
+	padding: 10px;
+}
+
+.formular span.checkbox, .formular .checkbox {
+	display: inline;
+}
+
+.formular .submit {
+	background: url('/img/form/button-bg.png') repeat-x;
+	border: 1px solid #AAA;
+	padding: 4px;
+	float: right;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+.formular hr {
+	clear: both;
+	visibility: hidden;
+}
+
+.formular .fc-error {
+	width: 350px;
+	color: 555;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 12px;
+	background: #FFEAEA;
+}

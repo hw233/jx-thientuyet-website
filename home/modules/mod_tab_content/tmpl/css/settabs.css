@@ -1,0 +1,495 @@
+.Joombest-tabs-wrap {
+	padding: 0;
+	margin: 0;
+	/* Do NOT remove box-sizing, we need it to make sure with/height has exactly value even with border/padding */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;	/* Firefox, other Gecko */
+	box-sizing: border-box;		 /* Opera/IE 8+ */
+	width: 100%;
+}
+
+.Joombest-tabs-wrap div, .Joombest-tabs-wrap li.jotabs-item h3{
+	behavior: url(plugins/system/jotabs/tabs/PIE.htc);
+	-pie-watch-ancestors: 1;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-container {
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #F5F5F5;
+	margin: 0 !important; /*Because width: 100%, so don't set margin*/
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	/* Do NOT remove box-sizing, we need it to make horizontal accordion work properly */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;	/* Firefox, other Gecko */
+	box-sizing: border-box;		 /* Opera/IE 8+ */
+}
+.Joombest-tabs-wrap .Joombest-tabs-title-wrap {
+	position: relative;
+	overflow: hidden;
+	z-index: 99;
+}
+
+.Joombest-tabs-wrap div.Joombest-tabs-content {
+	display: none;
+	position: relative;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+.Joombest-tabs-wrap div.Joombest-tabs-content:first-child {
+	/* display: block; */
+}
+
+.Joombest-tabs-wrap.ajaxloading div.Joombest-tabs-content {
+	opacity: 0.9;
+}
+
+.Joombest-tabs-wrap div.Joombest-tabs-subcontent {
+	padding: 10px;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-title {
+	margin: 0px; /*! important ?!*/
+	padding: 0px;
+	/* Do NOT remove box-sizing, we need it to tabs title full fill even with border/padding */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;	/* Firefox, other Gecko */
+	box-sizing: border-box;		 /* Opera/IE 8+ */
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-title-scroll ul.Joombest-tabs-title {
+	left: 0;
+}
+
+.Joombest-tabs-title-top.Joombest-tabs-title-scroll ul.Joombest-tabs-title, .Joombest-tabs-title-bottom.Joombest-tabs-title-scroll ul.Joombest-tabs-title {
+	position: absolute;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-title-wrap .tabscroll-prev, .Joombest-tabs-wrap .Joombest-tabs-title-wrap .tabscroll-next {
+	cursor: pointer;
+	display: none;
+	height: 100%;
+	position: absolute;
+	width: 20px;
+	z-index: 999;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-title-wrap .tabscroll-prev.disabled, .Joombest-tabs-wrap .Joombest-tabs-title-wrap .tabscroll-next.disabled {
+	opacity: 0.5;
+	transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-title-wrap .tabscroll-prev {
+	background: url('images/left_arrow.png') no-repeat scroll center center transparent;
+	left: 0;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-title-wrap .tabscroll-next {
+	background: url("images/right_arrow.png") no-repeat scroll center center transparent;
+	right: 0;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-panel {
+	background: none repeat scroll 0px 0px #FFFFFF;
+	border: 1px solid #F5F5F5;
+	z-index: 9;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-title h3 {
+	margin: 0;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-title h3 {
+	background: none repeat scroll 0px 0px #FAFAFA;
+	line-height: 35px;
+	margin: 0px;
+	position: relative;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-title h3 span {
+	display: block;
+	padding: 5px;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-title h3 span.Joombest-tabs-arrow {
+	display: none;
+	position: absolute;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-title li {
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-title li.active {
+	background: none repeat scroll 0px 0px #FFFFFF;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-title li.active h3 {
+	z-index: 100;
+}
+
+.Joombest-tabs-title-top {
+}
+
+.Joombest-tabs-title-top ul.Joombest-tabs-title {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 0;
+}
+
+.Joombest-tabs-title-top ul.Joombest-tabs-title li {
+	cursor: pointer;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.Joombest-tabs-panel-top {
+	clear: both;
+	width: 100%;
+	z-index: 1;
+	overflow: hidden;
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+}
+
+.Joombest-tabs-title-left {
+	float: left;
+}
+
+.Joombest-tabs-title-left ul.Joombest-tabs-title {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.Joombest-tabs-title-left ul.Joombest-tabs-title li {
+	cursor: pointer;
+	display: block;
+	margin: 5px;
+	padding: 5px;
+}
+
+.Joombest-tabs-panel-left {
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
+
+.Joombest-tabs-title-right {
+	float: right;
+	height: 100%;
+}
+
+.Joombest-tabs-title-right ul.Joombest-tabs-title {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.Joombest-tabs-title-right ul.Joombest-tabs-title li {
+	margin: 0px 0px 0px 1px;
+	padding: 0px;
+	cursor: pointer;
+	display: block;
+}
+
+.Joombest-tabs-panel-right {
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
+
+.Joombest-tabs-title-bottom {
+}
+
+.Joombest-tabs-title-bottom ul.Joombest-tabs-title {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	bottom: 0px;
+}
+
+.Joombest-tabs-title-bottom ul.Joombest-tabs-title li {
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.Joombest-tabs-panel-bottom {
+	position: relative;
+	overflow: hidden;
+	top: 0px;
+	left: 0px;
+	clear: both;
+}
+
+.Joombest-tabs-align-left ul.Joombest-tabs-title {
+	text-align: left;
+}
+
+.Joombest-tabs-align-center ul.Joombest-tabs-title {
+	text-align: center;
+}
+
+.Joombest-tabs-align-right ul.Joombest-tabs-title {
+	text-align: right;
+}
+
+.Joombest-tabs-align-ctstify ul.Joombest-tabs-title {
+	display: table;
+}
+
+.Joombest-tabs-align-ctstify ul.Joombest-tabs-title li {
+	display: table-cell;
+	float: none;
+	text-align: center;
+}
+
+.Joombest-tabs-wrap .no-display {
+	display: none;
+}
+
+.Joombest-tabs-wrap .ajaxloading {
+	width: 16px;
+	height: 16px;
+	right: 3px;
+	display: block !important;
+	position: absolute;
+	margin-top: -8px;
+	background: url("assets/images/loading.gif") no-repeat scroll 0px 0px transparent;
+	top: 50%;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion li.jotabs-item {
+	line-height: normal;
+	margin: 0px;
+	padding: 0px;
+	list-style: none outside none;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion li.jotabs-item.first {
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion li.jotabs-item.last {
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion li h3.active {
+	background: none repeat scroll 0px 0px #FFFFFF;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion li h3.Joombest-tabs-accordion-title {
+	cursor: pointer;
+	margin: 0px ! important;
+	background: none repeat scroll 0px 0px #FAFAFA;
+	border-bottom: 1px solid #EAEAEA;
+	position: relative;
+	line-height: 35px;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion li h3.Joombest-tabs-accordion-title.active {
+	background: none repeat scroll 0px 0px #FFFFFF;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion li h3.Joombest-tabs-accordion-title span {
+	display: block;
+	padding: 0px 10px;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion li h3.Joombest-tabs-accordion-title span.Joombest-tabs-accordion-arrow {
+	display: none;
+	position: absolute;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion li div.Joombest-tabs-accordion-content {
+	background: none repeat scroll 0px 0px #FFFFFF;
+	padding: 0px;
+	display: none;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion li:first-child div.Joombest-tabs-accordion-content {
+	/* display: block; */
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion li div.Joombest-tabs-accordion-subcontent {
+	padding: 10px;
+	display: block;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion-vertical {
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion-vertical li.jotabs-item {
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion-vertical li h3.Joombest-tabs-accordion-title {
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion-vertical div.Joombest-tabs-accordion-content {
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion-horizontal {
+	padding: 0px ! important;
+	margin: 0px ! important;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion-horizontal li.jotabs-item {
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion-horizontal li h3.Joombest-tabs-accordion-title {
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateX(-100%) rotate(-90deg); 
+	-webkit-transform-origin: right top; 
+	-moz-transform: translateX(-100%) rotate(-90deg);
+	-moz-transform-origin: right top; 
+	-o-transform: translateX(-100%) rotate(-90deg); 
+	-o-transform-origin: right top; 
+	-ms-transform: translateX(-100%) rotate(-90deg);
+	-ms-transform-origin: right top;
+	transform: translateX(-100%) rotate(-90deg); 
+	transform-origin: right top; 
+	/*
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); #IE7
+	-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)"; #IE8
+	*/
+	position: absolute;
+	letter-spacing: 1px;
+	top: 0px;
+	left: 0px;
+	text-align: left;
+	margin: 0px;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion-horizontal li div.Joombest-tabs-accordion-content {
+	position: absolute;
+	overflow: hidden;
+	top: 0px;
+	left: 0px;
+}
+
+.Joombest-tabs-wrap ul.Joombest-tabs-accordion-horizontal li div.Joombest-tabs-accordion-content:hover {
+	overflow-y: auto;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-panels {
+	position: relative;
+	overflow: hidden;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-panels .Joombest-tabs-slide-content-wrapper {
+	position: relative;
+	overflow: hidden;
+	margin: 0px 40px;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-panels .Joombest-tabs-slide-content {
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	position: relative;
+	z-index: 100;
+	width: 100%;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-panels .Joombest-tabs-slide-content:first-child {
+	/* display: block; */
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-panels .next_btn, .Joombest-tabs-wrap .Joombest-tabs-slide-panels .prev_btn {
+	position: absolute;
+	cursor: pointer;
+	padding: 5px;
+	top: 50%;
+	background: none repeat scroll 0% 0% #F5F5F5;
+	text-align: left;
+	overflow: hidden;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-panels .next_btn {
+	right: 0px;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-panels .prev_btn {
+	left: 0px;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-panels .next_btn.disabled {
+	cursor: default;
+	display: none;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-panels .prev_btn.disabled {
+	cursor: default;
+	display: none;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-panels .Joombest-tabs-slide-content .Joombest-tabs-slide-inner {
+	padding: 0px;
+	margin: 0px;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-panels .Joombest-tabs-slide-content .Joombest-tabs-slide-inner h3.Joombest-tabs-slide-heading {
+	line-height: 35px;
+	position: relative;
+	cursor: pointer;
+	margin: 0px;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-panels .Joombest-tabs-slide-content .Joombest-tabs-slide-inner h3.Joombest-tabs-slide-heading span {
+	display: block;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-panels .Joombest-tabs-slide-content .Joombest-tabs-slide-inner div.Joombest-tabs-slide-subcontent {
+	padding: 10px;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-nav {
+	position: relative;
+	float: left;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-nav span {
+	cursor: pointer;
+	margin-right: 5px;
+	font-weight: bold;
+	display: block;
+	position: relative;
+	float: left;
+	background: none repeat scroll 0px 0px #F5F5F5;
+	padding: 5px;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-nav span.active {
+	background: none repeat scroll 0px 0px #FAFAFA;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-buttons {
+	position: relative;
+	float: right;
+}
+
+.Joombest-tabs-wrap .Joombest-tabs-slide-buttons span {
+	cursor: pointer;
+	margin-left: 5px;
+	display: block;
+	position: relative;
+	padding: 5px;
+	float: left;
+	background: none repeat scroll 0px 0px #F5F5F5;
+	text-align: left;
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+	  
+	<name>tab content</name>
+	<author>Joombest.com</author>
+	<creationDate>July 2016</creationDate>
+	<copyright>Copyright Joombest.com. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@Joombest.com</authorEmail>
+	<authorUrl>http://www.Joombest.com</authorUrl>
+	<version>1.0</version>
+	<description>TAB_CONTENT_DESC</description>
+	
+
+	<files>
+		<filename module="mod_tab_content">mod_tab_content.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_tab_content.xml</filename>
+		<folder>language</folder>
+		<folder>elements</folder>
+		<folder>js</folder>
+		<folder>tmpl</folder>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">language/en-GB.mod_tab_content.ini</language>
+	</languages>
+	
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_tab_content/elements">
+			<fieldset name="TABs" label="LABEL TAB PROPERTIES">
+			<field type="loader" />
+				<field name="classsufix" type="text" default="" label="class sufix" description="class sufix" />
+				<field name="tabstyle" type="list" default="vetical" label="Tab style" description="Tab style">
+					<option value="0">horizontal</option>
+					<option value="1">vetical</option>
+				</field>
+				<field name="TabWidth" type="text" default="880" label="LABEL TAB WIDTH" description="DESC TAB WIDTH" />
+				<field name="colorTabSelect" type="hotcolor" default="#EE9900" label="Color tab select" description="Color tab select" />
+				<field name="displaystyle" type="list" default="center" label="Display style" description="Display style">
+					<option value="0">Center</option>
+					<option value="1">Left</option>
+					<option value="2">Right</option>
+					<option value="3">Justify</option>
+				</field>
+			</fieldset>
+			<fieldset name="TAB1" label="LABEL TAB1">
+				<field name="title1" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+				<field name="TabContent1" type="Editor" default="" label="LABEL TAB CONTENT" description="DESC TAB CONTENT" filter="safehtml" />
+			</fieldset>
+			<fieldset name="TAB2" label="LABEL TAB2">
+				<field name="title2" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+				<field name="TabContent2" type="editor" default="" label="LABEL TAB CONTENT" description="DESC TAB CONTENT" filter="safehtml" />
+			</fieldset>
+			<fieldset name="TAB3" label="LABEL TAB3">
+				<field name="title3" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+				<field name="TabContent3" type="editor" default="" label="LABEL TAB CONTENT" description="DESC TAB CONTENT" filter="safehtml"/>
+			</fieldset>
+			<fieldset name="TAB4" label="LABEL TAB4">
+				<field name="title4" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+				<field name="TabContent4" type="editor" default="" label="LABEL TAB CONTENT" description="DESC TAB CONTENT" filter="safehtml"/>
+			</fieldset>
+			<fieldset name="TAB5" label="LABEL TAB5">
+				<field name="title5" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+				<field name="TabContent5" type="editor" default="" label="LABEL TAB CONTENT" description="DESC TAB CONTENT" filter="safehtml"/>
+			</fieldset>
+			<fieldset name="TAB6" label="LABEL TAB6">
+				<field name="title6" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+				<field name="TabContent6" type="editor" default="" label="LABEL TAB CONTENT" description="DESC TAB CONTENT" filter="safehtml"/>
+			</fieldset>
+			<fieldset name="TAB7" label="LABEL TAB7">
+				<field name="title7" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+				<field name="TabContent7" type="editor" default="" label="LABEL TAB CONTENT" description="DESC TAB CONTENT" filter="safehtml"/>
+			</fieldset>
+			<fieldset name="TAB8" label="LABEL TAB8">
+				<field name="title8" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+				<field name="TabContent8" type="editor" default="" label="LABEL TAB CONTENT" description="DESC TAB CONTENT" filter="safehtml"/>
+			</fieldset>
+			<fieldset name="TAB9" label="LABEL TAB9">
+				<field name="title9" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+				<field name="TabContent9" type="editor" default="" label="LABEL TAB CONTENT" description="DESC TAB CONTENT" filter="safehtml"/>
+			</fieldset>
+			<fieldset name="TAB10" label="LABEL TAB10">
+				<field name="title10" type="text" default="" label="LABEL HEADING" description="DESC HEADING" />
+				<field name="TabContent10" type="editor" default="" label="LABEL TAB CONTENT" description="DESC TAB CONTENT" filter="safehtml"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

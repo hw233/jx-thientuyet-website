@@ -1,0 +1,126 @@
+body{ background:url(../images/bg.jpg);}
+
+/*------------------------------- Layout: chua toan bo code html ------------------------------*/
+
+/*---------------------wrapper-----------------*/
+#wrapper{
+	margin:0px auto;
+	width:100%;
+	overflow:hidden;
+	background:url(../images/header.jpg) no-repeat top center;
+	position:absolute;
+	z-index:1;
+	top:32px;
+	left: 16px;
+}
+#box-out{ width:100%; background:url(../images/bg-out.jpg) repeat-x; position:absolute; height:700px; z-index:1;}
+
+
+#container{ width:1000px; margin:auto; overflow:hidden;}
+
+
+#event{ position:absolute; top:110px; left:360px; width:312px; height:168px;}
+
+#download{
+	position:absolute;
+	width:126px;
+	height:74px;
+	top:0px;
+	left:434px;
+	z-index:50;
+	overflow: hidden;
+}
+#download #flash-content{ width:126px; height:74px;}
+
+
+
+#header{ width:1000px; overflow:hidden; height:274px; position:relative}
+
+#logo{	width:160px;	height:120px;	overflow:hidden;	position:absolute;	left: 422px;	top: 127px;}
+#logo a{width:160px; height:120px; display:block; text-indent:-9999px}
+
+/* mainbox-----------------*/
+#mainbox{ width:1000px; overflow:hidden; position:relative}
+#mainbox #hoa-van{ background:url(../images/hoa-van.png) no-repeat; position:absolute; top:55px; left:855px; z-index:10; width:15px; height:35px}
+
+/* --------- nav ---------------*/
+#col-1{ width:215px; float:left; overflow:hidden; background:url(../images/col1-bg.gif) repeat-y}
+#col-1-t{ width:215px; overflow:hidden; background:url(../images/col1-t.png) no-repeat left top;}
+#col-1-b{background:url(../images/col1-b.gif) no-repeat 0 100%; padding:0 0 80px 0}
+.dangky a:link, .dangky a:visited{width:90px; height:30px; display:block; background:url(../images/dangky-but.jpg) no-repeat left bottom; text-indent:-9999px; margin-left:69px; margin-bottom:52px}
+.dangky a:hover{background-position:0 0}
+
+
+
+/* --------- col-2 ---------------*/
+#col-2{ float:left; width:640px; overflow:hidden; margin-top-:57px;}
+.content-t{ background:url(../images/maincontent-t.jpg) no-repeat 0 0; overflow:hidden; }
+.content-bg{width:640px; background:url(../images/maincontent-bg.gif) repeat-y; overflow:hidden;}
+.content-b{width:640px; height:27px; background:url(../images/maincontent-b.png) no-repeat 0 100%; overflow:hidden;}
+
+.box-content{ overflow:hidden; width:580px; margin:auto; min-height:600px}
+
+/* title_box_main */
+.title_box_main{ width:615px; overflow:hidden; margin:auto; margin:0px 0 0px 0px; height:30px; margin-bottom:20px}
+.title_box_main h2{ line-height:18px; margin:0px; padding:0px 10px 0px 70px; color:#fde3ad; font-weight:bold; letter-spacing:0; font-size:16px;}
+.title_box_main .right{ padding:0px 0 0 0; color:#ffd49c}
+.title_box_main .right a:link,.title_box_main .right a:visited{color:#ffd49c;}
+.title_box_main .right a:hover{ color:#fcd800}
+
+/* toppage */
+#col-3{ float:left; width:145px; overflow:hidden;}
+#col-3-content{ width:145px; height:190px; overflow:hidden; background:url(../images/thongke1.png) no-repeat}
+*html #col-3-content{ width:145px;}
+
+#col-4{ float:left; width:345px; overflow:hidden;}
+#col-4-content{ width:370px; height:190px; overflow:hidden; background:url(../images/thongke2.png) no-repeat}
+*html #col-4-content{ width:245px;}
+.col4-body{width:220px; height:130px; margin:10px 1 1 1px; }
+.col3-body{width:120px; height:130px; margin:50px 0 0 8px; }
+.toppage a{display:block; width:120px; height:36px; background:url(../images/topage.jpg) no-repeat -120px 0px;color:#ffffff; text-indent:-9999px;}
+.toppage a:hover{ background-position:0px 0px; color:#000;}
+.toppage a.off:link,.hotrohk a.off:visited,.hotrohk a.off:hover{background-position:100% 0; cursor:default;}
+.toppage a.act:link,.hotrohk a.act:visited,.hotrohk a.act:hover{background-position:0px 0; cursor:default;}
+
+
+
+
+
+
+
+ul#quicklink{padding:0; margin:0; list-style:none;}
+ul#quicklink li{}
+.huong-dan a{display:block; width:120px; height:36px; background:url(../images/quicklink.jpg) no-repeat -120px 0px;color:#ffffff; text-indent:-9999px;}
+.huong-dan a:hover{ background-position:0px 0px; color:#000;}
+.huong-dan a.off:link,.hotrohk a.off:visited,.hotrohk a.off:hover{background-position:100% 0; cursor:default;}
+.huong-dan a.act:link,.hotrohk a.act:visited,.hotrohk a.act:hover{background-position:0px 0; cursor:default;}
+
+.napthe-vltk a{display:block; width:120px; height:28px; background:url(../images/quicklink.jpg) no-repeat -120px -36px;color:#ffffff; text-indent:-9999px;}
+.napthe-vltk a:hover{ background-position:0px -36px; color:#000;}
+.napthe-vltk a.off:link,.hotrohk a.off:visited,.hotrohk a.off:hover{background-position:100% -36px; cursor:default;}
+.napthe-vltk a.act:link,.hotrohk a.act:visited,.hotrohk a.act:hover{background-position:0px -36px; cursor:default;}
+
+
+.ho-tro a{display:block; width:120px; height:29px; background:url(../images/quicklink.jpg) no-repeat -120px -64px;color:#ffffff; text-indent:-9999px;}
+.ho-tro a:hover{ background-position:0px -64px; color:#000;}
+.ho-tro a.off:link,.hotrohk a.off:visited,.hotrohk a.off:hover{background-position:100% -64px; cursor:default;}
+.ho-tro a.act:link,.hotrohk a.act:visited,.hotrohk a.act:hover{background-position:0px -64px; cursor:default;}
+
+.dien-dan a{display:block; width:120px; height:33px; background:url(../images/quicklink.jpg) no-repeat -120px -93px;color:#ffffff; text-indent:-9999px;}
+.dien-dan a:hover{ background-position:0px -93px; color:#000;}
+.dien-dan a.off:link,.hotrohk a.off:visited,.hotrohk a.off:hover{background-position:100% -93px; cursor:default;}
+.dien-dan a.act:link,.hotrohk a.act:visited,.hotrohk a.act:hover{background-position:0px -93px; cursor:default;}
+
+
+.ontop{ width:30px; height:20px; overflow:hidden; margin:0px 0 0 55px; text-align:center; text-decoration:none;}
+.ontop a:link,.ontop a:visited{ width:30px; display:block; padding:0px 0 0 0px; color:#f9e5d5; font-weight:bold; text-align:center;text-decoration:none;}
+.ontop a:hover{color:#ff9500}
+
+/*-------------------------- Footer --------------------------------------------*/
+#footer{width:100%; overflow:hidden; background:url(../images/bg-footer.jpg) center bottom no-repeat;}
+#box-footer{ float:left; width:1000px; height:100px; overflow:hidden; color:#f0d6bf;  background:url(../images/logo.png) no-repeat 55% top}
+#box-footer p{text-align:center; padding:40px 0 20px 80px; font-size:11px}
+
+
+
+#ad_zone_310 {overflow:hidden;margin:10px 0 10px 55px;width:130px;}

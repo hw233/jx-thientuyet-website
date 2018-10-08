@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Download*/
+#gpContent {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0 20px;
+    width: 980px;
+}
+
+#gpMainContent.GPSubpageOneColumn {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    width: 100%;
+}
+
+#gpSubPageTopbar {
+    border-bottom: 1px solid #9F5A4A;
+    overflow: hidden;
+    padding: 0 0 4px;
+    width: 98%;
+}
+
+#gpSubPageTopbar div#gpBreadcrumbs {
+    float: right;
+    padding: 5px 0;
+    text-align: right;
+    width: 50%;
+}
+
+#gpMainContent .GPSectionTopbar {
+    background: url("../images/gp-title-bar.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 35px;
+    margin: 20px 0 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 580px;
+}
+
+#gpSubPageTopbar h2 {
+    color: #F38707;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 60%;
+}
+
+#gpSubPageTopbar div#gpBreadcrumbs a {
+    color: #F38707;
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+
+.GPSectionTopbar h3.GPGameCategoryTitle {
+    color: #FFFFFF;
+    float: left;
+    font-size: 1.5em;
+    padding: 8px 0 5px 10px;
+    text-transform: uppercase;
+    width: 435px;
+}
+
+.GPDownload_Detail01 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #F4F4F4;
+    border-color: -moz-use-text-color #C3C3C3 #C3C3C3;
+    border-image: none;
+    border-left: 1px solid #C3C3C3;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    margin-bottom: 20px;
+}
+
+.GPDownload_Detail01 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #F4F4F4;
+    border-color: -moz-use-text-color #C3C3C3 #C3C3C3;
+    border-image: none;
+    border-left: 1px solid #C3C3C3;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    margin-bottom: 20px;
+}
+
+.GPDownload_Detail01 p {
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+.GPDownload_Detail {
+    margin: 0 20px 30px;
+    overflow: hidden;
+}
+
+.GPDownload_Detail h4 {
+    color: #E57007;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.GPDownload_Detail .mytable {
+    background-color: #DDDDDD;
+    border: 0 none;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    margin: auto;
+}
+
+.GPDownload_Detail .mytable_header {
+    background: none repeat scroll 0 0 #EF8728;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px 4px;
+    text-align: center;
+}
+
+.GPDownload_Detail .mytable_lightrow {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 10px;
+}
+
+.GPDownload_Detail .mytable_darkrow {
+    background: none repeat scroll 0 0 #F6F6F6;
+    padding: 10px;
+}
+
+.GPDownload_Detail a.GPLinkDownload:link, .GPDownload_Detail a.GPLinkDownload:visited {
+    color: #3D3D3D;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.GPDownload_Detail a.GPLinkDownload:hover {
+    color: #E57007;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: underline;
+}

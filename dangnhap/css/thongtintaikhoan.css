@@ -1,0 +1,11 @@
+body{
+	background: #eee;
+}
+#main_info{
+	
+	width: 30%;
+	padding-left: 5%;
+	border: solid gray 1px;
+	border-radius: 5px;
+	margin:5px auto;
+}

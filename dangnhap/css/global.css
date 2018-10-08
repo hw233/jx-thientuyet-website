@@ -1,0 +1,154 @@
+/* General HTML elements */
+body {
+    font: 12px "Arial",tahoma;
+    margin: 0px;
+    padding: 0px;
+	line-height:19px;
+	color:#000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+ul,
+ul li,
+ol,
+ol li,
+dl,
+dl dt,
+dl dd,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+ul,
+ul li,
+ol,
+ol li {
+    list-style: none;
+}
+img {
+    border: none;
+}
+a {
+    outline: none;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+	color:#341900;
+}
+a:hover {
+    text-decoration: none;
+	color:#341900;
+}
+fieldset {
+    border: none;
+    background: none;
+    margin: 0px;
+    padding: 0px;
+}
+fieldset legend {
+    display: none;
+}
+input,
+select,
+textarea {
+    font: 12px "Arial",Tahoma, Verdana, Helvetica, sans-serif;
+}
+/* for modern browser */
+input[type="image"],
+input[type="submit"] {
+    outline: none;
+}
+/* input[checkbox] & input[radio] */
+input {
+    vertical-align: baseline;
+    margin: -1px -2px;
+}
+/* Firefox */
+html>/**/body input {
+    vertical-align: text-bottom;
+    margin: 0px;
+}
+.Wrapper {
+    overflow: visible;
+    height: 1%;
+}
+html>body .Wrapper {
+    overflow: hidden;
+    height: auto;
+}
+object,
+embed {
+    outline: none;
+}
+.clear{clear:both;}
+a:focus
+ {
+    outline: none;
+}
+
+.box_tintuc_body_box01{400px; overflow:hidden; background:url(../images/news-line.gif) repeat-x left bottom}
+.box_tintuc_body_box01 p{ margin:0; padding:0}
+
+
+a.link-hot-news,a.link-hot-news:visited{ color:;#000; font-weight:bold;text-decoration:none;}
+a.link-hot-news:hover{ color:#e30000; font-weight:bold;text-decoration:none;}
+
+.text-date{color:#5b543f; padding:0 5px 0 0px;}
+#header #box-event1{width:305px; height:165px; position:absolute; left:140px; top:10px}
+#event-box{width:305px; height:165px;overflow:hidden; background:url(../images/event1-bg.png) no-repeat right top}
+#event-box{width:305px; height:165px;overflow:hidden; }
+#event-box{width:305px; height:165px;overflow:hidden;  position:relative;}
+.event-image{ width:310px; height:210px; float:left; margin-right:0px}
+#event-control{
+	width:21px;
+	overflow:hidden;
+	position:absolute;
+	left:3px;
+	top: 80px;
+	line-height:16px;
+}
+#event-control ul{ margin:0px 0 0 0px; padding:0; list-style-type:none;}
+#event-control ul li{margin-bottom:0px;}
+#event-control ul li a:link,#event-control ul li a:visited{ display:block; width:16px; height:16px; background:url(../images/event-bt-nor.gif) no-repeat; text-align:center; color:#000; font-size:11px}
+
+#event-control ul li a:link.act,#event-control ul li a:visited.act,#event-control ul li a:hover.act,
+#event-control ul li a:hover{background:url(../images/event-bt-act.gif) no-repeat; color:#fff; font-weight:bold;}
+
+
+
+.one a:link,.one a:visited{ display:block; width:16px; height:16px;}
+.one a:hover{ display:block; width:16px; height:16px; }
+.one a:link.act,.one a:visited.act{ display:block; width:16px; height:16px; }
+
+.two a:link,.two a:visited{ display:block;width:16px; height:16px; }
+.two a:hover{ display:block; width:16px; height:16px;  }
+.two a:link.act,.two a:visited.act{ display:block; width:16px; height:16px; }
+
+.three a:link,.three a:visited{ display:block;width:16px; height:16px; }
+.three a:hover{ display:block; width:16px; height:16px;}
+.three a:link.act, .three a:visited.act{ display:block; width:16px; height:16px; }
+
+.four a:link,.four a:visited{ display:block;width:16px; height:16px; }
+.four a:hover{ display:block; width:16px; height:16px; }
+.four a:link.act, .four a:visited.act{ display:block; width:16px; height:16px; }
+
+.five a:link,.five a:visited{ display:block;width:16px; height:16px; }
+.five a:hover{ display:block; width:16px; height:16px; }
+.five a:link.act, .five a:visited.act{ display:block; width:16px; height:16px; }
+
+#big_1,#big_2,#big_3,#big_4,#big_5{width:278px; height:158px; overflow:hidden; margin:0px 0 0 25px; border:solid 1px #dcba81}
+
+
+
+.corner-boxleft-1{width:10px; height:10px; background:url(../images/cor-boxleft-1.gif) no-repeat; position:absolute; top:0px; left:25px;}
+.corner-boxleft-2{width:10px; height:10px; background:url(../images/cor-boxleft-2.gif) no-repeat; position:absolute; top:0px; left:295px}
+.corner-boxleft-3{width:10px; height:10px; background:url(../images/cor-boxleft-3.gif) no-repeat; position:absolute; top:150px; left:25px;}
+.corner-boxleft-4{width:10px; height:10px; background:url(../images/cor-boxleft-4.gif) no-repeat; position:absolute; top:150px; left:295px;}

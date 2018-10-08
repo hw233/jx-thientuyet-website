@@ -1,0 +1,32 @@
+
+/*---------------------box_top-----------------*/
+#box_top{ width:100%; margin:0px auto; overflow:hidden; position:absolute; z-index:2; background:url(../images/bg-top.gif) repeat-x}
+#box{ width:960px; margin:0px auto; position:relative}
+
+.left{ float:left;}
+.right{ float:right;}
+
+.box_left{ float:left; margin:0px; overflow:hidden;	background:url(../images/logo-top.gif) no-repeat center left; height:31px; width:100px; display:block; line-height:0px;}
+
+.box_right{	width:850px; height:31px; float:right; margin:0px; overflow:hidden; font-size:10px; font-weight:bold;}
+.box_right .left{ padding-top:3px; font-size:1.1em}
+.box_right .right{ width:280px; font-size:1.1em}
+.box_right .right .left{ margin-top:5px;}
+.box_right .right .left-tim{ margin-top:7px; padding-left:5px; float:left}
+.box_right .right .right { width:122px; height:20px; margin-top:5px}
+
+#box_top #box .box_right .left .style-link { color:#737373; text-decoration:none; padding-top:3px; font-weight:bold;}
+
+#box_top #box .box_right .left .style-link_off { color:#ccc; font-weight:bold;}
+#box_top #box .box_right .left .style-link_act { color:#000; font-weight:bold;}
+
+#box_top #box .box_right .left .style-link a,
+#box_top #box .box_right .left .style-link a:visited,
+#box_top #box .box_right .left .style-link a:active { color:#737373; text-decoration:none; font-weight:bold;}
+#box_top #box .box_right .left .style-link a:hover { color:#000; text-decoration:none;}
+
+/*---------------------box-game-----------------*/
+#box-game{ margin:0px auto;	width:100%; position:absolute; z-index:3; top:0}
+#box-game #box{	width:940px; margin: 0 auto; position:relative}	
+#box-game #box .box-ds-game{ position:absolute; z-index:3; top:5px; left:830px}
+

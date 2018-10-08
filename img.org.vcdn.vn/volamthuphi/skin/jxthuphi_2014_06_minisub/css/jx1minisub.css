@@ -1,0 +1,341 @@
+/* content1.css */ 
+@charset "utf-8";
+/* style.css */ 
+body {
+	background: url(../images/bg-loop.jpg) repeat;
+	color: #000;
+	margin: 0px auto;
+}
+
+#wrapper {
+	margin:0 auto;
+	background: url(../images/banner.jpg) no-repeat;
+}
+#wrapperIn {
+	background: url(../images/headerline.jpg) no-repeat center 490px;		
+	margin:0 auto;
+	width: 100%;
+}
+img {
+	border:0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+}
+ul, ol {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+li {
+	margin:0;
+	padding:0;
+}
+a:link, a:visited {
+	color:#063;
+}
+a:hover {
+	color:#7c0b71;
+	text-decoration:none;
+}
+a:focus {
+	outline:none;
+}
+table, td, input, select, textarea {
+	font-size:100%;
+	margin:0;
+	padding:0;
+}
+p, form {
+	margin:0;
+	padding:0;
+}
+p {
+	margin-bottom:10px;
+}
+.clear {
+	clear:both;
+	line-height:0;
+	font-size:0;
+	height:0;
+}
+.pa10 {
+	padding:10px;
+}
+
+#container {
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+}
+.TopUtility {
+	width: 1000px;
+	height: 430px;
+	margin: 0px auto;
+}	
+.Logo {
+	display:block;
+	text-decoration:none;
+	text-indent:-9999px;
+	width: 230px;
+	height: 174px;
+	background: url(http://volamviet.biz/img.org.vcdn.vn/volamthuphi/skin/jxthuphi_2014_06_minisub/images/logo.png) no-repeat;
+}
+#nav-link {
+    background: url(../images/nav-link-bg.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 175px;
+    width: 240px;
+}
+#header {
+	width:710px;
+	height:115px;
+	background: url(../images/header-bg.jpg) top center no-repeat !important;
+	position:relative;
+	z-index:0;
+}
+#header-event {
+	width:100%;
+	height:490px;
+	margin:0 auto;
+	margin-bottom:10px;
+	background:url(../images/header-event.jpg) bottom center no-repeat;
+	text-indent:-9999px;
+}
+.name-event {
+    color: #FFA200;
+    float: left;
+    font-size: 30px;
+    line-height: 46px;
+    padding-left: 30px;
+    padding-top: 18px;
+    width: 95%;
+}
+.event-time {
+    color: #BBBA70;
+    float: left;
+    font-size: 14px;
+    padding-left: 28px;
+    padding-top: 9px;
+}
+#quickLink {
+	position: absolute;
+	top: 430px;
+	right: 0px;
+	width: 234px;
+	overflow: visible !important;
+	z-index: 1000;
+	margin-bottom: 20px;
+}
+#quickLink a.FixedTopLnk {
+	width: 38px;
+	height: 38px;
+	display: block;
+	text-indent: -9999px;
+	background: url(../images/toppage.png) no-repeat left top;
+	position: absolute;
+	bottom: 0;
+}
+#quickLink a.FixedTopLnk:hover {
+	background: url(../images/toppage-o.png) no-repeat left top;
+}
+ul#sidenavMenu {
+    background: none repeat scroll 0 0 #000000;
+    margin: 0 0 0 12px;
+    padding: 0 4px 5px 5px;
+    width: 202px;
+}
+ul#sidenavMenu li {
+    height: 52px;
+}
+ul#sidenavMenu li a {
+    background: url(../images/bg-navbutton.jpg) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #fffec1;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    height: 52px;
+    line-height: 52px;
+    padding: 0 15px;
+    width: 172px;
+}
+ul#sidenavMenu li a:hover,
+ul#sidenavMenu li.Hilite a {
+	background-position: 0 -52px;
+}
+#download {
+	background:url(../images/bg-download.png) no-repeat;
+    height: 185px;
+    width: 202px;
+	padding: 0px 16px;
+    z-index: 10;
+}
+#download .SetUp {
+    display: block;
+    height: 121px;
+    text-indent: -9999px;
+    width: 202px;
+    z-index: 8;
+}
+#download .Register {
+    background: url(../images/block-button-sub.jpg) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    margin-right: 2px;
+    height: 59px;
+    text-indent: -9999px;
+    width: 100px;
+    z-index: 8;
+}
+#download .Register:hover {
+	background-position: 0 -59px;
+}
+#download .NapThe {
+    background: url(../images/block-button-sub.jpg) no-repeat scroll -100px 0 rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 59px;
+    text-indent: -9999px;
+    width: 100px;
+    z-index: 8;
+}
+#download .NapThe:hover {
+	background-position: -100px -59px;
+}
+.ScrollTop {
+	background: url(../images/toppage.jpg) no-repeat;
+    bottom: -35px;
+    display: block;
+    height: 30px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 50px;
+}
+
+.ScrollTop:hover {
+	background-position: 0 -30px;
+}
+.ScrollTop:hover img {
+	-webkit-animation-play-state: running;
+	-moz-animation-play-state: running;
+	animation-play-state: running;
+}
+.ScrollTop img {
+	position: relative;
+	margin: 0px 6px;
+	-webkit-animation: bouncing 0.5s infinite linear;
+	-moz-animation: bouncing 0.5s infinite linear;
+	animation: bouncing 0.5s infinite linear;
+	
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	animation-play-state: paused;
+}
+@-webkit-keyframes bouncing {
+0% {bottom: -5px;}
+50% {bottom: 0px;}
+100% {bottom: -5px;}
+}
+@-moz-keyframes bouncing {
+0% {bottom: -5px;}
+50% {bottom: 0px;}
+100% {bottom: -5px;}
+}
+@keyframes bouncing {
+0% {bottom: -5px;}
+50% {bottom: 0px;}
+100% {bottom: -5px;}
+}
+
+#main-nav {
+	width:700px;
+	height:87px;
+	margin:0 auto;
+	padding:0;
+}
+#main-nav ul {
+	width:700px;
+	overflow:hidden;
+}
+#main-nav ul li {
+	list-style:none;
+	float:left;
+}
+
+#footer {
+	height: 215px;
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	background: url(../images/footer.jpg) no-repeat bottom center;
+}
+#footerWrapper {
+	width: 1000px;
+	height: 215px;
+	position: relative;
+	margin: 0 auto;
+}
+#footer a.VNG {
+	background: url(../images/logo-vng.png) no-repeat;
+	display: block;
+	width: 35px;
+	height: 53px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 130px;
+	left: 140px;
+}
+#footer a.KingSoft {
+	background: url(../images/logo-kingsoft.png) no-repeat;
+	display: block;
+	width: 85px;
+	height: 16px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 148px;
+	left: 203px;
+}
+#footer .rating a {
+	background: url(../images/rating.png) no-repeat;
+	width: 157px;
+	height: 75px;
+	position: absolute;
+	top: 118px;
+	left: 797px;
+	text-indent: -9999px;
+}
+#footer p {
+	margin: 0 auto;
+	color: #fff;
+	font-size: 11px;
+	position: absolute;
+	top: 134px;
+	left: 304px;
+}
+div.plugin-social-block-p, .template-blank {
+    border-bottom: 1px solid #150001;
+    color: #000;
+    height: 50px;
+    margin: 0px !important;
+    overflow: hidden;
+    width: 704px;
+}
+div.plugin-social-block-p > div#popup-social-sub > div.block-social > div.share-block-social > .title {
+    
+}
+div.plugin-social-block-p.active {
+    background-color: #26272b;
+    color: #bcba6f;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+div.plugin-social-block-p > div#popup-social-sub > div.block-social > div.share-block-social > .title {
+    margin-left: 30px;
+}
+
+
+
+
